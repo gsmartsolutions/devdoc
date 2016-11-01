@@ -18,7 +18,7 @@
     - http://codeguide.co/
     - http://primercss.io/guidelines/#html
 
-## CSS/SASS/LESS Coding Standards
+## CSS Coding Standards
 - Referennces:
     - http://codeguide.co/
     - https://smacss.com
@@ -29,6 +29,21 @@
     - https://github.com/airbnb/css
 
 ## PHP Coding Standards
-- Referennces
-    - https://www.mediawiki.org/wiki/Manual:Coding_conventions/PHP
-    - https://laravel.com/docs/5.3/contributions#coding-style
+**Highlight Rules**
+
+- Use `space` instead of tabs
+- Use `2 spaces` for indent mostly (JS, HTML, CSS), only use `4 spaces` for PHP and Markdown files
+- Line limit `100-120 characters`
+- File limit `1000 lines`, method limit `200 lines`
+
+**References**
+
+- PHP
+    - [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md#1-overview)
+    - [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#1-overview)
+    - [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md#1-overview)
+- [EditorConfig](https://gist.github.com/tucq88/4521ade9f5dd87a84fcabe3a67b9e773)
+- Enable Right Margin on
+[PHPStorm](http://stackoverflow.com/questions/20351583/get-rid-of-the-middle-grey-line-in-the-workspace) /
+[Sublime](http://stackoverflow.com/questions/25900954/80-characters-right-margin-line-in-sublime-text-3)
+- Read more about [PHP Coding convention](https://www.mediawiki.org/wiki/Manual:Coding_conventions/PHP)
