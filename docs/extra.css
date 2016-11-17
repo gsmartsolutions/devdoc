@@ -6,3 +6,11 @@ a {
   color: #008cba;
   text-decoration: none;
 }
+
+li {
+    margin-bottom: 5px;
+}
+
+li > ul {
+    margin-top: 5px;
+}
